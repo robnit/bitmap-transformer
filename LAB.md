@@ -3,7 +3,7 @@ Bitmap Transformer
 
 ## Description
 
-For this assignment you will be building a bitmap transformer class.
+For this assignment you will be working solo or in pairs building a bitmap transformer class.
 
 The wikipedia article found here [Bitmap Specification](https://en.wikipedia.org/wiki/BMP_file_format) 
 describes the byte specification of a "windows bitmap file.":
