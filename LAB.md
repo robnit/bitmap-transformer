@@ -44,3 +44,7 @@ for the inverted transformer
 ## Bonus
 
 * Adapt the transformer to work for the non-palleted bitmap image
+
+## Super Bonus
+
+* Handle other bitmaps (find on internet) by accounting for non-perfect rows
