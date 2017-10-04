@@ -43,5 +43,4 @@ for the inverted transformer
 
 ## Bonus
 
-
-* https://www.johndcook.com/blog/2009/08/24/algorithms-convert-color-grayscale/
+* Adapt the transformer to work for the non-palleted bitmap image
