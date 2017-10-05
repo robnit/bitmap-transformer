@@ -11,7 +11,7 @@ describe('bitmap header', () => {
     });
 
     it('has correct specs', () => {
-        // TODO: read the docs to figure out what these values should be
+        // DONE TODO: read the docs to figure out what these values should be
         assert.ok(constants.PIXEL_OFFSET);
         assert.ok(constants.BITS_PER_PIXEL_OFFSET);
         assert.ok(constants.FILE_SIZE_OFFSET);
@@ -22,8 +22,12 @@ describe('bitmap header', () => {
         // on the BitmapHeader in its constructor.
         // These test values are correct for the supplied test-bitmap.bmp
         const header = new BitmapHeader(buffer);
-        assert.equal(header.pixelOffset, 54);
-        assert.equal(header.bitsPerPixel, 24);
-        assert.equal(header.fileSize, 30054);
+        assert.equal(header.pixelOffset, 1078);
+        assert.equal(header.bitsPerPixel, 8);
+        assert.equal(header.fileSize, 11078);
+        // Constants for palette-test-bitmap.bmp
+        // assert.equal(header.pixelOffset, 54);
+        // assert.equal(header.bitsPerPixel, 24);
+        // assert.equal(header.fileSize, 30054);
     });
 });
