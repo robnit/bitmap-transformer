@@ -27,10 +27,5 @@ describe('bitmap header', () => {
         assert.equal(header.pixelOffset, 54);
         assert.equal(header.bitsPerPixel, 24);
         assert.equal(header.fileSize, 30054);
-
-        // Constants for test-palette-bitmap.bmp
-        // assert.equal(header.pixelOffset, 1078);
-        // assert.equal(header.bitsPerPixel, 8);
-        // assert.equal(header.fileSize, 11078);
     });
 });
