@@ -2,6 +2,8 @@ const assert = require('assert');
 const fs = require('fs');
 const BitmapTransformer = require('../lib/bitmap-transformer');
 const invert = require('../lib/invert-transformer');
+const grayscale = require('../lib/grayscale-transformer');
+
 
 describe('bitmap file transformer', () => {
     
@@ -36,6 +38,6 @@ describe('bitmap file transformer', () => {
         // if you don't have a standard file yet, you could write it 
         // out by commenting above code, using code below and visually inspect
         // the file for correctness.
-        // return fs.writeFileSync('./test/output.bmp', bitmap.buffer);
+        return fs.writeFileSync('./test/output.bmp', bitmap.buffer);
     });
 });
