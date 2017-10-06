@@ -3,6 +3,7 @@ const fs = require('fs');
 const BitmapTransformer = require('../lib/bitmap-transformer');
 const invert = require('../lib/invert-transformer');
 const grayscale = require('../lib/grayscale-transformer');
+const removeRed = require('../lib/removeRed-transformer');
 
 
 describe('bitmap file transformer', () => {
